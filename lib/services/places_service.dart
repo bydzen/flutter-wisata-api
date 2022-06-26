@@ -12,5 +12,6 @@ class Places {
       var json = response.body;
       return destinationFromJson(json);
     }
+    return null;
   }
 }
